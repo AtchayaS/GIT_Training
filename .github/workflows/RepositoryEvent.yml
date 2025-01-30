@@ -1,12 +1,10 @@
 name: Repository Event
 run-name: ${{github.actor}}
-on:  
-  pull_request_review:
-    types: [submitted, edited, dismissed]
+on:
+  fork
 jobs:
   approved:
-    if: github.event.review.state == 'approved'
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This PR was approved"
+      - run: echo "A new fork has been created for this repository."
       
