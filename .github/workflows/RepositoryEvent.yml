@@ -3,7 +3,7 @@ run-name: ${{github.actor}}
 on:
   fork
 jobs:
-  approved:
+  forkjob:
     runs-on: ubuntu-latest
     steps:
       - run: echo "A new fork has been created for the repository."
