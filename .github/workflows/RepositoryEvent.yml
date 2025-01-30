@@ -6,8 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Display the first Job"
-  job2:
-    runs-on: ubuntu-latest
-    steps: 
-      - run: echo "Display the second job
       
