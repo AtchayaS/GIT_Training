@@ -5,5 +5,5 @@ jobs:
   job1: 
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Display the first Job"
+      - run: echo "Display the issues details"
       
