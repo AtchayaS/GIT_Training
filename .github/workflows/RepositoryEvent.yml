@@ -1,6 +1,6 @@
 name: Repository Event
 
-on: push
+on: issues
 jobs:
   job1: 
     runs-on: ubuntu-latest
